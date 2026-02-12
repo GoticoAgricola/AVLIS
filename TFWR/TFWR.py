@@ -28,6 +28,12 @@ while True:
 		if can_harvest():
 				plant(Entities.Bush)
 	---------------------------
+while True:
+	if can_harvest():
+		harvest()
+		do_a_flip()
+		move(South)
+	move(East)
 
 
 
